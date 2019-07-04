@@ -21,6 +21,10 @@ namespace Test
             else if (currentHour > 15 && currentHour <= 22)
             {
                 Console.WriteLine("Good Evening, Guys");
+            } 
+            else 
+            {
+                Console.WriteLine("Sweet Dreams, Guys");
             }
                 
             Console.ReadLine();
