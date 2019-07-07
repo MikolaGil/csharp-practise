@@ -8,8 +8,10 @@ namespace Alphabet
         static void Main(string[] args)
         {
             ArrayList arr = new ArrayList();
+            int firstLetter = 0x41;
+            int lastLetter = 0x59;
 
-            for(int i = 0x59; i >= 0x41; i--)
+            for(int i = lastLetter; i >= firstLetter; i--)
             {
                 string character = i.ToString("X");
                 arr.Add(character);
