@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\for_letter_count\for_letter_count\bin\Debug\netcoreapp2.1\for_letter_count.deps.json
+C:\Users\user\source\repos\for_letter_count\for_letter_count\bin\Debug\netcoreapp2.1\for_letter_count.runtimeconfig.json
+C:\Users\user\source\repos\for_letter_count\for_letter_count\bin\Debug\netcoreapp2.1\for_letter_count.runtimeconfig.dev.json
+C:\Users\user\source\repos\for_letter_count\for_letter_count\bin\Debug\netcoreapp2.1\for_letter_count.dll
+C:\Users\user\source\repos\for_letter_count\for_letter_count\bin\Debug\netcoreapp2.1\for_letter_count.pdb
+C:\Users\user\source\repos\for_letter_count\for_letter_count\obj\Debug\netcoreapp2.1\for_letter_count.csprojAssemblyReference.cache
+C:\Users\user\source\repos\for_letter_count\for_letter_count\obj\Debug\netcoreapp2.1\for_letter_count.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\for_letter_count\for_letter_count\obj\Debug\netcoreapp2.1\for_letter_count.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\for_letter_count\for_letter_count\obj\Debug\netcoreapp2.1\for_letter_count.AssemblyInfo.cs
+C:\Users\user\source\repos\for_letter_count\for_letter_count\obj\Debug\netcoreapp2.1\for_letter_count.dll
+C:\Users\user\source\repos\for_letter_count\for_letter_count\obj\Debug\netcoreapp2.1\for_letter_count.pdb
