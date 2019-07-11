@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Age", "Age\Age.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bacteria", "Bacteria\Bacteria.csproj", "{8A232081-F5E0-4A9C-BBAF-A80386E96F2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deposit", "Deposit\Deposit.csproj", "{3CA9155A-BEDD-49B2-8665-356243C7F621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8A232081-F5E0-4A9C-BBAF-A80386E96F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A232081-F5E0-4A9C-BBAF-A80386E96F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A232081-F5E0-4A9C-BBAF-A80386E96F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA9155A-BEDD-49B2-8665-356243C7F621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA9155A-BEDD-49B2-8665-356243C7F621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA9155A-BEDD-49B2-8665-356243C7F621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA9155A-BEDD-49B2-8665-356243C7F621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
