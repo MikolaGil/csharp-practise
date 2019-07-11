@@ -33,7 +33,7 @@ namespace Age
                 }
 
                 Console.WriteLine($"You are {age} years old");
-                Console.ReadLine();
+                Console.Read();
             }
 
             void CheckDate()
