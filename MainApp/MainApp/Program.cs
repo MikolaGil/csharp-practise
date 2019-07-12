@@ -6,7 +6,12 @@ namespace MainApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            short intForBoxing = 2;
+            object obj = intForBoxing;
+
+            SByte xx = Convert.ToSByte(obj);
+            Console.WriteLine(xx.GetType());
+            Console.ReadLine();
         }
     }
 }
