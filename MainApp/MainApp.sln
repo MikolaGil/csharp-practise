@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApp", "MainApp\MainApp.csproj", "{05E8D545-9569-49B3-94B2-46EACB799AFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApp", "MainApp\MainApp.csproj", "{05E8D545-9569-49B3-94B2-46EACB799AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersCount", "LettersCount\LettersCount.csproj", "{E56C480C-9ACF-4B71-A54B-C667D4204961}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{05E8D545-9569-49B3-94B2-46EACB799AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E8D545-9569-49B3-94B2-46EACB799AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05E8D545-9569-49B3-94B2-46EACB799AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56C480C-9ACF-4B71-A54B-C667D4204961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56C480C-9ACF-4B71-A54B-C667D4204961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56C480C-9ACF-4B71-A54B-C667D4204961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56C480C-9ACF-4B71-A54B-C667D4204961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
