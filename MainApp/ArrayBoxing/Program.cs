@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace Task2
+namespace ArrayBoxing
 {
     class Program
     {
@@ -11,7 +11,7 @@ namespace Task2
             //object value
             arrayList.Add(45);  //true, boxing
             arrayList.Add(true);  //true, boxing
-            arrayList.Add("Hello!");  //true, boxing
+            arrayList.Add("Hello!");  //false, boxing
             arrayList.Add(23.45);  //true, boxing
         }
     }
