@@ -41,10 +41,6 @@ namespace FillArray
                             arr[j] = tempArr[j - 1];
                         }
                     }
-                    else
-                    {
-                        Console.WriteLine("Wron number");
-                    }
                 }
 
                 ShowArr();
