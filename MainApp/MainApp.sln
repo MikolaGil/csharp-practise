@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "for_letter_count", "for_let
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poetry", "Poetry\Poetry.csproj", "{DFB8345D-190F-468A-99DA-CD86546C65F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongWord", "LongWord\LongWord.csproj", "{2E8BD2AE-C1DC-4319-A70E-9F6AB3FB172A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DFB8345D-190F-468A-99DA-CD86546C65F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFB8345D-190F-468A-99DA-CD86546C65F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFB8345D-190F-468A-99DA-CD86546C65F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8BD2AE-C1DC-4319-A70E-9F6AB3FB172A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8BD2AE-C1DC-4319-A70E-9F6AB3FB172A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8BD2AE-C1DC-4319-A70E-9F6AB3FB172A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8BD2AE-C1DC-4319-A70E-9F6AB3FB172A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
