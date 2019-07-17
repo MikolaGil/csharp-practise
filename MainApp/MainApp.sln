@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alphabet", "Alphabet\Alphab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Move", "Move\Move.csproj", "{DFB6663C-A19A-4681-B929-F214384B3F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for_letter_count", "for_letter_count\for_letter_count.csproj", "{73A23F4B-B3B8-4FDF-A6F9-6E05E3A07272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "for_letter_count", "for_letter_count\for_letter_count.csproj", "{73A23F4B-B3B8-4FDF-A6F9-6E05E3A07272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyArr", "EmptyArr\EmptyArr.csproj", "{77A675A8-B92F-4A5D-A9DC-86C33E8F84BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{73A23F4B-B3B8-4FDF-A6F9-6E05E3A07272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A23F4B-B3B8-4FDF-A6F9-6E05E3A07272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A23F4B-B3B8-4FDF-A6F9-6E05E3A07272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A675A8-B92F-4A5D-A9DC-86C33E8F84BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A675A8-B92F-4A5D-A9DC-86C33E8F84BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A675A8-B92F-4A5D-A9DC-86C33E8F84BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A675A8-B92F-4A5D-A9DC-86C33E8F84BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
