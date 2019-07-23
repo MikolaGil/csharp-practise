@@ -13,9 +13,9 @@ namespace LongWord
 
             string[] arrText = text.Split(' ');
 
-            string removeWord = removeLongestWord(arrText);
+            string removeWord = RemoveLongestWord(arrText);
             string swapWords = ChangeWordIndex(arrText);
-            int[] charactersCount = countCharacters(text);
+            int[] charactersCount = CountCharacters(text);
 
             Console.WriteLine($"Text without longest word: {removeWord}");
             Console.WriteLine($"Swap longest and shortest words: {swapWords}");
@@ -26,7 +26,7 @@ namespace LongWord
             Console.ReadLine();
         }
 
-        static string removeLongestWord(string[] textArr)
+        static string RemoveLongestWord(string[] textArr)
         {
             int longWordIndex = 0;
             int length = 0;
@@ -40,7 +40,7 @@ namespace LongWord
                 }
             }
 
-            textArr[longWordIndex] = "";
+            textArr[longWordIndex] = string.Empty;
 
             string result = string.Join(' ', textArr);
             return result;
@@ -79,7 +79,7 @@ namespace LongWord
             return phrase;
         }
 
-        static int[] countCharacters(string text)
+        static int[] CountCharacters(string text)
         {
             int[] charsAmount = new int[2];
             Regex regChars = new Regex(@"\w");
