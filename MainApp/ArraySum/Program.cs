@@ -10,7 +10,7 @@ namespace ArraySum
             int[] handmadeArr = new int[5];
             int[] finalArr = new int[5];
 
-            void fillRandomArr()
+            void FillRandomArr()
             {
                 for (int i = 0; i < randomArr.Length; i++)
                 {
@@ -22,7 +22,7 @@ namespace ArraySum
                 Console.WriteLine('\n');
             }
 
-            void fillHandmadeArr()
+            void FillHandmadeArr()
             {
                 for (int i = 0; i < handmadeArr.Length; i++)
                 {
@@ -37,7 +37,7 @@ namespace ArraySum
                 Console.WriteLine('\n');
             }
 
-            void sumFinalArr()
+            void SumFinalArr()
             {
                 Console.WriteLine("Sum of two arrays:");
 
@@ -48,9 +48,9 @@ namespace ArraySum
                 }
             }
 
-            fillHandmadeArr();
-            fillRandomArr();
-            sumFinalArr();
+            FillHandmadeArr();
+            FillRandomArr();
+            SumFinalArr();
 
             Console.Read();
         }

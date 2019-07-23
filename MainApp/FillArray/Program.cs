@@ -8,7 +8,7 @@ namespace FillArray
         {
             int[] arr = new int[5];
 
-            void getNumsForArr()
+            void GetNumsForArr()
             {
                 for (int i = 0; i < arr.Length - 1; i++)
                 {
@@ -54,7 +54,7 @@ namespace FillArray
                 }
             }
 
-            getNumsForArr();
+            GetNumsForArr();
             GetNumFromUser();
 
             Console.ReadLine();
