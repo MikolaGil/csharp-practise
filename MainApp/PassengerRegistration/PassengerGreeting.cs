@@ -6,41 +6,28 @@ namespace PassengerRegistration
 {
     class PassengerGreeting
     {
-        private string _greeting;
-        public string Greeting
+        public string Message()
         {
-            get
+            TimeSpan currentTime = DateTime.Now.TimeOfDay;
+            int currentHour = currentTime.Hours;
+            string message;
+
+            if (currentHour > 9 && currentHour <= 12)
             {
-                return _greeting;
+                return message = Constants.Greeting.GoodMorning + Constants.Greeting.GreetingMsg;
             }
-
-            set
+            else if (currentHour > 12 && currentHour <= 15)
             {
-                TimeSpan currentTime = DateTime.Now.TimeOfDay;
-                int currentHour = currentTime.Hours;
-
-                if (currentHour > 9 && currentHour <= 12)
-                {
-                    _greeting = Constants.GreetingMsg + Constants.GoodMorning;
-                }
-                else if (currentHour > 12 && currentHour <= 15)
-                {
-                    _greeting = Constants.GreetingMsg + Constants.GoodAfternoon;
-                }
-                else if (currentHour > 15 && currentHour <= 22)
-                {
-                    _greeting = Constants.GreetingMsg + Constants.GoodMorning;
-                }
-                else
-                {
-                    _greeting = Constants.GreetingMsg + Constants.GoodEvening;
-                }
+                return message = Constants.Greeting.GoodAfternoon + Constants.Greeting.GreetingMsg;
+            }
+            else if (currentHour > 15 && currentHour <= 22)
+            {
+                return message = Constants.Greeting.GoodEvening + Constants.Greeting.GreetingMsg;
+            }
+            else
+            {
+                return message = Constants.Greeting.GoodEvening + Constants.Greeting.GreetingMsg;
             }
         }
-
-        //public string test()
-        //{
-        //    return _greeting;
-        //}
     }
 }
