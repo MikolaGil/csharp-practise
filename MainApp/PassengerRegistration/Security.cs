@@ -12,11 +12,11 @@ namespace PassengerRegistration
             Console.WriteLine(Constants.SecurityQuestions.ForbiddenItems);
             resultForbiddenItems = Console.ReadLine().ToUpper();
 
-            if (resultForbiddenItems == "Y")
+            if (resultForbiddenItems.Equals("Y"))
             {
                 Console.WriteLine(Constants.SecurityQuestions.Permission);
                 resultPermission = Console.ReadLine().ToUpper();
-                if (resultPermission == "Y")
+                if (resultPermission.Equals("Y"))
                 {
                     return true;
                 }
