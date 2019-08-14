@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Shape
 {
-    class Square: IDefaultShape
+    class Square: IShape
     {
         string _shapeType;
         public string ShapeType

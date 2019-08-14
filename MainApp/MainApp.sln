@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29009.5
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApp", "MainApp\MainApp.csproj", "{05E8D545-9569-49B3-94B2-46EACB799AFD}"
 EndProject
@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poetry", "Poetry\Poetry.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongWord", "LongWord\LongWord.csproj", "{2E8BD2AE-C1DC-4319-A70E-9F6AB3FB172A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassengerRegistration", "PassengerRegistration\PassengerRegistration.csproj", "{F14E65FE-2573-4E8D-A071-3FFE49479732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassengerRegistration", "PassengerRegistration\PassengerRegistration.csproj", "{F14E65FE-2573-4E8D-A071-3FFE49479732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shape", "Shape\Shape\Shape.csproj", "{9E4B5209-4450-4B47-B1D8-189620B97645}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{F14E65FE-2573-4E8D-A071-3FFE49479732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14E65FE-2573-4E8D-A071-3FFE49479732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14E65FE-2573-4E8D-A071-3FFE49479732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4B5209-4450-4B47-B1D8-189620B97645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4B5209-4450-4B47-B1D8-189620B97645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4B5209-4450-4B47-B1D8-189620B97645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4B5209-4450-4B47-B1D8-189620B97645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

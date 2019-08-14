@@ -18,6 +18,7 @@ namespace Shape
                 _shapeType = value;
             }
         }
+
         public double CountSquare()
         {
             Console.WriteLine("Enter circle radius");
