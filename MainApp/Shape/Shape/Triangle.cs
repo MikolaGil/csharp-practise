@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Shape
 {
-    class Triangle : IDefaultShape
+    class Triangle : MainShape
     {
-        string _shapeType;
+        private string _shapeType;
         public string ShapeType
         {
             get
@@ -19,6 +19,8 @@ namespace Shape
                 _shapeType = value;
             }
         }
+        
+        public double Square { get; set; }
 
         public Triangle(string type)
         {
@@ -32,6 +34,8 @@ namespace Shape
 
             double triangleSquare;
             triangleSquare = (Math.Pow(size, 2) * Math.Sqrt(3)) / 4;
+            Square = triangleSquare;
+
             return triangleSquare;
         }
     }

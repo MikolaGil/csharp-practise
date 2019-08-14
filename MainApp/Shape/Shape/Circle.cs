@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Shape
 {
-    class Circle: IDefaultShape
+    class Circle: MainShape
     {
-        string _shapeType;
+        private string _shapeType;
         public string ShapeType
         {
             get
@@ -19,6 +19,13 @@ namespace Shape
                 _shapeType = "Circle";
             }
         }
+        
+        public double Square { get; set; }
+
+        public Circle(string type)
+        {
+            ShapeType = type;
+        }
         public double CountSquare()
         {
             Console.WriteLine("Enter circle radius");
@@ -26,6 +33,8 @@ namespace Shape
 
             double circleSquare;
             circleSquare = Math.Pow(size, 2) * Math.PI;
+            Square = circleSquare;
+
             return circleSquare;
         }
     }

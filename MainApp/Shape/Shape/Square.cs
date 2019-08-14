@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Shape
 {
-    class Square: IDefaultShape
+    class ShapeSquare: MainShape
     {
-        string _shapeType;
+        private string _shapeType;
         public string ShapeType
         {
             get
@@ -19,6 +19,13 @@ namespace Shape
                 _shapeType = "Square";
             }
         }
+        
+        public double Square { get; set; }
+        public ShapeSquare(string type)
+        {
+            ShapeType = type;
+        }
+
         public double CountSquare()
         {
             Console.WriteLine("Enter square side length");
@@ -26,6 +33,8 @@ namespace Shape
 
             double squareSquare;
             squareSquare = Math.Pow(size, 2);
+            Square = squareSquare;
+
             return squareSquare;
         }
     }

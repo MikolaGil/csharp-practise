@@ -5,41 +5,34 @@ using System.Text;
 
 namespace Shape
 {
-    public class MainShape: IShape
+    public class MainShape:IDefaultShape
     {
-        int _shape;
-        public int Shape
-        {
-            get
-            {
-                return _shape;
-            }
-            set
-            {
-                _shape = value;
-            }
-        }
-        object[] arr;
+        public string ShapeType { get; set; }
+
+        public double Square { get; set; }
+
         Triangle triangle = new Triangle("Triangle");
-        Circle circle = new Circle();
-        Square square = new Square();
+        Circle circle = new Circle("Circle");
+        ShapeSquare square = new ShapeSquare("Square");
         public void GetLength()
         {
             triangle.CountSquare();
             circle.CountSquare();
             square.CountSquare();
         }
-        public void MakeArray()
+        public MainShape[] MakeArray()
         {
-            object[] shapeArr = new Object[]{ triangle, circle, square };
-            arr = shapeArr;
+            MainShape[] shapeArr = new MainShape[]{ triangle, circle, square };
+            return shapeArr;
         }
 
         public void DisplayShape()
         {
+            MainShape mainShape = new MainShape();
+            MainShape[] arr = mainShape.MakeArray();
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.WriteLine($"This is . CLR Type is. Square is ");
+                Console.WriteLine($"This is {arr[i].ShapeType}. CLR Type is {arr[i].GetType()}. Square is {arr[i].Square}\n");
                 Console.Read();
             }
         }

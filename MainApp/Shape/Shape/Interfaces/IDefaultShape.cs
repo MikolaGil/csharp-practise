@@ -6,7 +6,7 @@ namespace Shape.Interfaces
 {
     interface IDefaultShape
     {
+        double Square { get; set; }
         string ShapeType { get; set; }
-        double CountSquare();
     }
 }
