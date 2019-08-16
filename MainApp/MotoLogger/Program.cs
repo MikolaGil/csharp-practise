@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MotoLogger.Api;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,18 @@ namespace MotoLogger
         static void Main(string[] args)
         {
             Logger.InitLogger();
+            Logger.Log.Info("Application start.");
 
-            Logger.Log.Info("Test!");
-            Logger.Log.Error("Error!");
+            CRUD crud = new CRUD();
+            Motorcycle motorcycle = new Motorcycle();
+            string[] motoArray = Motorcycle.FillArray();
+
+            crud.Read(1, motoArray);
+            crud.Update(0, motoArray, "Ducati");
+            crud.Create("Minsk", motoArray);
+            crud.Delete(0, motoArray);
+
+            Console.ReadLine();
         }
     }
 }
