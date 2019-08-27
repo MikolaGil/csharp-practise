@@ -1,0 +1,4 @@
+2019-08-16 10:14:33,508 FATAL LOGGER - System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в MotoLogger.Api.CRUD.Create(String elem, String[] arr) в C:\Users\Lenovo\Desktop\csharp-practise\MainApp\MotoLogger\Api\CRUD.cs:строка 45
+2019-08-16 10:25:51,040 FATAL LOGGER - System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в MotoLogger.Api.CRUD.Create(String elem, String[] arr) в C:\Users\Lenovo\Desktop\csharp-practise\MainApp\MotoLogger\Api\CRUD.cs:строка 45

@@ -1,0 +1,26 @@
+2019-08-16 09:50:54,445 INFO LOGGER - Application start.
+2019-08-16 09:50:54,456 INFO LOGGER - Read 1 element of array
+2019-08-16 09:53:06,389 INFO LOGGER - Application start.
+2019-08-16 09:53:06,404 INFO LOGGER - Read 1 element of array
+2019-08-16 09:55:35,188 INFO LOGGER - Application start.
+2019-08-16 09:55:35,205 INFO LOGGER - Read 1 element of array
+2019-08-16 09:56:01,301 INFO LOGGER - Application start.
+2019-08-16 09:56:34,973 INFO LOGGER - Application start.
+2019-08-16 09:56:34,989 INFO LOGGER - Create MotoLogger.Motorcycle array
+2019-08-16 09:56:57,166 INFO LOGGER - Application start.
+2019-08-16 09:56:57,183 INFO LOGGER - Create MotoLogger.Motorcycle array
+2019-08-16 10:04:56,528 INFO LOGGER - Application start.
+2019-08-16 10:04:56,544 INFO LOGGER - Create MotoLogger.Motorcycle array
+2019-08-16 10:04:58,664 INFO LOGGER - Read 1 element of array
+2019-08-16 10:14:33,471 INFO LOGGER - Application start.
+2019-08-16 10:14:33,490 INFO LOGGER - Create MotoLogger.Motorcycle array
+2019-08-16 10:14:33,490 INFO LOGGER - Read 1 element of array
+2019-08-16 10:14:33,490 INFO LOGGER - Update 1 element of array
+2019-08-16 10:14:33,491 INFO LOGGER - Create new element of array
+2019-08-16 10:14:33,525 INFO LOGGER - Delete 0 element of array
+2019-08-16 10:25:51,019 INFO LOGGER - Application start.
+2019-08-16 10:25:51,034 INFO LOGGER - Create MotoLogger.Motorcycle array
+2019-08-16 10:25:51,034 INFO LOGGER - Read 1 element of array
+2019-08-16 10:25:51,034 INFO LOGGER - Update 1 element of array
+2019-08-16 10:25:51,035 INFO LOGGER - Create new element of array
+2019-08-16 10:25:51,045 INFO LOGGER - Delete 0 element of array
